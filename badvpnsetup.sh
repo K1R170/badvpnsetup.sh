@@ -62,8 +62,9 @@ if [[ "$resposta" = 's' ]]; then
 	echo "E deixe a sessão screen rodando em segundo plano."
 	echo "" ; tput sgr0
 	exit
-then
+else
 	echo ""
 	exit
 fi
 fi
+I
